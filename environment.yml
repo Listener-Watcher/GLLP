@@ -1,0 +1,6 @@
+name: graph
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+prefix: /home/yjin2021/.conda/envs/graph
