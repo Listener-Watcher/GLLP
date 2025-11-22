@@ -121,7 +121,7 @@ for (ds,bags,nodes,seed), g in df_raw.groupby(["dataset","bags","nodes","seed"])
             "winning_subparams": row["subparams_str"],
         }
 
-    for m in ["kl","klreg","klgraph","otkl","pt"]:
+    for m in ["kl","klreg","klgraph","otkl","pt","vae"]:
         r = best_of(m)
         if r is not None:
             best_rows.append(r)
